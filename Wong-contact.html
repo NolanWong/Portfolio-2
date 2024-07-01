@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>
+            Contact
+        </title>
+        <link href="style.css" rel="stylesheet">
+        <script defer src="Wong-contact.js"></script>
+    </head>
+    <body>
+        <form class="contact" id="contact" method="post" action="https://script.google.com/macros/s/AKfycbxHP8zFsXDoU2WrY1D06uh5UOQYflK9sQ6z5G62oUzrKfSum8qd6te8Cu53tRQ3ki_QkA/exec">
+            <h1>Contact Me</h1>
+            <h2 class="desc">Please leave your contact information.</h2>
+            <input name="Name" class="usrName" placeholder="Name"><br>
+            <input  name="Email"class="eMail" placeholder="Email"><br>
+            <input name="Comments"class="comms" placeholder="Comments?"><br>
+            <button class="submit">Submit</button>
+            <h2 class="desc">I will try to get to you as soon as possible.</h2>
+            <script>
+                const scriptURL = "https://script.google.com/macros/s/AKfycbxHP8zFsXDoU2WrY1D06uh5UOQYflK9sQ6z5G62oUzrKfSum8qd6te8Cu53tRQ3ki_QkA/exec"
+                const form = document.forms['contact']
+                  form.addEventListener('submit', e => {
+                      e.preventDefault()
+                      fetch(scriptURL, {method: 'POST', body: new FormData(form)})
+                          .then(response => console.log('Success!', response))
+                          .catch(error => console.error('Error!', error.message))
+                          document.getElementById("contact").reset();
+                    })
+              </script>
+            <div class="thank">
+                <p class="ThankText">Thanks! :)</p>
+            </div>
+        </form>
+        <div class="navbar-con3"><style>
+            .navbar-con3{
+            display: flex;
+            justify-content: space-around;
+            margin-top: 19.51%;
+        }
+        </style>
+            <div class="nav-icon">
+            <button><a href="index.html">Home</a></button>
+            </div>
+            <div class="nav-icon">
+            <button><a href="Wong-Proj.html">Projects</a></button>
+            </div>
+            <div class="nav-icon">
+            <button><a href="Skills.html">Skills</a></button>
+            </div>
+            <div class="nav-icon">
+            <button>    <a href="Future.html">Future</a></button>
+            </div>
+        </div>
+    </body>
+</html>
