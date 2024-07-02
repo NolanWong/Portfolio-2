@@ -1,0 +1,80 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #e0f7fa;
+    /* Light cyan */
+    text-align: center;
+    margin: 0;
+    padding: 30px;
+}
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 48px;
+    /* Larger font size for headings */
+    color: #00796b;
+    /* Teal */
+    margin-bottom: 30px;
+}
+
+img.pop-icon {
+    width: 150px;
+    margin: 20px auto;
+}
+
+p {
+    color: #004d40;
+    /* Darker teal for contrast */
+    margin: 10px 0;
+}
+
+input,
+button {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 20px;
+    /* More rounded edges for a modern look */
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease;
+    /* Smooth transition for interactions */
+}
+
+input {
+    border: 2px solid #00796b;
+    /* Teal border for inputs */
+    width: 60%;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Inner shadow for depth */
+}
+
+button {
+    background-color: #ff5722;
+    /* Bright orange */
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    /* Poppins semi-bold for button text */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Soft shadow for depth */
+}
+
+button:hover {
+    background-color: #e64a19;
+    /* Darker orange for hover effect */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    /* Deeper shadow for hover effect */
+}
+
+div.content {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 2px dashed #00796b;
+    /* Teal dashed border for separation */
+}
+.show_cont, .Grade_cont, .eva, .OOhg, .OOrg, .OOmg, .ibohg, .wfmhg, .noRes{
+    display:none;
+}
+img{
+    width:60%;
+    margin:0% 20%;
+}
