@@ -1,0 +1,49 @@
+.oButton{
+    display:flex;
+    justify-content: space-around;
+}
+body{
+    text-align: center;
+    background-color: #8b2323;
+}
+.magiks{
+    background-color: #292929;
+    color:white;
+}
+.p1{
+    display:block;
+}
+.p2{
+ display:none;
+}
+.p3{
+display:none;
+}
+.p4{
+    display:none;
+}
+.p5{
+    display:none;
+}
+.p6{
+    display:none;
+}
+.p7{
+    display:none;
+}
+.p8end1{
+    display:none;
+}
+.p9{
+    display:none;
+}
+.p10end2{
+    display:none;
+}
+.p11{
+    display:none;
+}
+img{
+    width: 600px;
+    left:350px;
+}
