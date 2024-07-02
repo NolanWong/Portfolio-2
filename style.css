@@ -94,7 +94,7 @@ a{
     text-decoration: none;
 }
 .future{
-    margin: 3% 0% 1.4% 3%;
+    margin: 3% 0% .5% 3%;
     font-size: 20px;
 }
 .about{
@@ -114,3 +114,6 @@ a{
 #images{
     margin: 0% 3%;
 }
+.skills{
+    font-size: 20px;
+;
