@@ -1,4 +1,3 @@
-/* just UPDATE ALREADY */
 nav{
     text-decoration: none;   
     color: black; 
@@ -10,6 +9,7 @@ body{
     overflow-y: hidden;
     min-width: 100%;
     min-height: 100%;
+    font-size: 15%
 }
 .thank{
     display:none;
