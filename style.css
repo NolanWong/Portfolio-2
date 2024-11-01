@@ -8,8 +8,8 @@ body{
     background-size: 100%;
     color: white;
     overflow-y: hidden;
-    width:auto;
-    min-height:auto;
+    width:100vw;
+    min-height:100vh;
 }
 .thank{
     display:none;
@@ -98,7 +98,7 @@ a{
 }
 .future{
     margin: 3% 0% .5% 3%;
-    font-size: 5%;
+    font-size: 20%;
 }
 .about{
     margin: 3.75% 0% 2% 0%;
@@ -118,5 +118,5 @@ margin: 0.3% 0% 0%;}
     margin: 0% 3%;
 }
 .skills{
-    font-size: 5%;
+    font-size: 20%;
 }
