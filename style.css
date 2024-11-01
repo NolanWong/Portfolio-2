@@ -8,6 +8,8 @@ body{
     background-size: 100%;
     color: white;
     overflow-y: hidden;
+    width: 150%;
+    height:150%;
 }
 .thank{
     display:none;
