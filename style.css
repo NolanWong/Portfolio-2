@@ -5,6 +5,7 @@ nav{
 .nav-icon button {
     width: 300px;
     height: 70px;
+    background-color: rgba(0,0,0,0);
 }
 body{
     background-image: url(assets/Placehold6.jpg);
@@ -53,7 +54,7 @@ li{
 .navbar-con{
     display: flex;
     justify-content: space-around;
-    margin: 7% 0% 0% 0%;
+    margin: 6.3% 0% 0% 0%;
 }
 .navbar-con2{
     display: flex;
@@ -65,12 +66,12 @@ li{
 .navbar-con4{
     display: flex;
     justify-content: space-around;
-    margin: 8.2% 0% 0% 0%;
+    margin: 7.5% 0% 0% 0%;
 }
 .navbar-con5{
     display: flex;
     justify-content: space-around;
-    margin: 5.5% 0% 0% 0%;
+    margin: 4.8% 0% 0% 0%;
 }
 .three6zero{
     width: 10%;
@@ -83,7 +84,7 @@ li{
     height: 60vh;
 }
 .info{
-    margin:0% 10% 6.5% 10%;
+    margin:0% 10% 5.5% 10%;
     display: flex;
     align-items: center;
     justify-content: center;
