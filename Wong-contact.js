@@ -11,5 +11,5 @@ let messages_value=messages.value;
 let usrName_value=usrName.value
 thank.style.display="block"
 console.log(usrName_value)
-nav3.style.marginTop="18.2%"
+nav3.style.marginTop="17.4%"
 });
