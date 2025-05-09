@@ -58,7 +58,7 @@ li{
 .navbar-con2{
     display: flex;
     justify-content: space-around;
-    margin: -1% 0% 0% -3%;
+    margin: -1% 0% 0% 0%;
     padding: 0% 0% 0% 0%;
     position: relative;
 }
