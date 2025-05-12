@@ -11,5 +11,10 @@ let messages_value=messages.value;
 let usrName_value=usrName.value
 thank.style.display="block"
 console.log(usrName_value)
+if (nav3.style.marginTop==19.4){
 nav3.style.marginTop="16.5%"
+}
+else{
+    nav3.style.marginTop="22.5%"
+}
 });
