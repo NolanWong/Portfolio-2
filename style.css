@@ -22,6 +22,7 @@ body{
 .thango{
   width: 30%;
   margin-left:150px;
+  max-height: 550px;
 }
 .langs{
     width: 45%;
